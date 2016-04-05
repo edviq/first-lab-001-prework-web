@@ -18,13 +18,13 @@ Forking is the process of making a personal remote copy of the Learn lab.
 
 <img width="100%" height="auto" src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/git-workflow-1.png" alt="Git Workflow 1">
 
-To get started, in Learn click the title of the lab to go to Flatiron School's copy of the lab on Github.
+To get started, in Learn click the GitHub button to go to Flatiron School's copy of the lab on Github.
 
-<img width="100%" height="auto" src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/ironboard-labs-step-0.jpg" alt="Ironboard Labs Step 0">
+<img width="100%" height="auto" src="https://curriculum-content.s3.amazonaws.com/web-development/first-lab/GitHub.png" alt="Ironboard Labs Step 0">
 
 Next on Flatiron's Github page for the lab click the Fork button.
 
-<img width="100%" height="auto" src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/ironboard-labs-step-1.jpg" alt="Ironboard Labs Step 1">
+<img width="100%" height="auto" src="https://curriculum-content.s3.amazonaws.com/web-development/enough-git-for-learn-co/Fork.png" alt="Ironboard Labs Step 1">
 
 Then select your personal Github account as the location to fork to.
 
@@ -32,14 +32,14 @@ Then select your personal Github account as the location to fork to.
 
 ## 2. Clone Your Fork
 
-Cloning is the process of making a local copy of the lab from your personal remote on Github. 
+Cloning is the process of making a local copy of the lab from your personal remote on Github.
 
 <img width="100%" height="auto" src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/git-workflow-2.png" alt="Git Workflow 2">
 
-To clone, make sure you've first clicked on the SSH link, then click the 
+To clone, make sure you've first clicked on the SSH link, then click the
 copy button next to the Clone URL to copy it to your clipboard.
 
-<img width="100%" height="auto" src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/ironboard-labs-step-2.jpg" alt="Ironboard Labs Step 2">
+<img width="100%" height="auto" src="https://curriculum-content.s3.amazonaws.com/web-development/enough-git-for-learn-co/Clone.png" alt="Ironboard Labs Step 2">
 
 Next, in Terminal navigate to the parent directory where you would like to place this lab. Then type:  `git clone <paste the clone URL here>`  
 
@@ -53,7 +53,7 @@ Note: You should replace the &lt;paste the clone URL here&gt; including the &lt;
 
 Now that you have forked and cloned your fork, your goal is simple. Just create a new file within this lab.
 
-Go into this lab's directory by typing 'cd first-lab-000'. Confirm that your working directory in terminal is this lab by typing: `pwd`
+Go into this lab's directory by typing `cd LABNAME` (where "LABNAME" is the name of your version of this lab — we might type, e.g. `cd first-lab-000`). Confirm that your working directory in terminal is this lab by typing: `pwd`
 
 You should see something like: `/Users/avi/first-lab-000`
 
@@ -87,7 +87,7 @@ Now, try to run the `learn` CLI by typing `learn` in the lesson's directory. You
 
 <img width="100%" height="auto" src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/git-workflow-4.png" alt="Git Workflow 4">
 
-After adding and commiting your most recent work next we want to push our work up to our personal Github remote (origin). 
+After adding and commiting your most recent work next we want to push our work up to our personal Github remote (origin).
 
 `git push origin master`
 
@@ -109,14 +109,16 @@ To do so, in Learn click the title of the lab to go to your forked copy on Githu
 
 Then click the green Pull Request button.
 
-<img width="100%" height="auto" src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/ironboard-labs-step-4.jpg" alt="Ironboard Labs Step 4">
+<img width="100%" height="auto" src="https://curriculum-content.s3.amazonaws.com/web-development/enough-git-for-learn-co/PR.png" alt="Ironboard Labs Step 4">
 
 After reviewing the comparison code and making sure it shows your solution, click the Create pull request button.
 
-<img width="100%" height="auto" src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/ironboard-labs-step-4e.jpg" alt="Ironboard Labs Step 4e">
+<img width="100%" height="auto" src="https://curriculum-content.s3.amazonaws.com/web-development/enough-git-for-learn-co/PR2.png" alt="Ironboard Labs Step 4e">
 
 Then click Create pull request button again.
 
-<img width="100%" height="auto" src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/ironboard-labs-step-4f.jpg" alt="Ironboard Labs Step 4f">
+<img width="100%" height="auto" src="https://curriculum-content.s3.amazonaws.com/web-development/enough-git-for-learn-co/PR3.png" alt="Ironboard Labs Step 4f">
 
 That's it, you're done! Now go back to Learn and you should see the Pull Request flip to green, and the remote build will be kicked off. Once it passes, you will be able to proceed to the Next Lesson.
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/first-lab' title='Your First Lab'>Your First Lab</a> on Learn.co and start learning to code for free.</p>
